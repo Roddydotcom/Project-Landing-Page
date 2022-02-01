@@ -1,0 +1,192 @@
+*{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    font-weight: 700;
+}
+.header-right{
+    display: flex;
+    gap: 20px; 
+}
+.real-god-one{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+    margin: -20px -20px 0px -20px;
+    height: 500px;
+}
+.god-one{
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+
+}
+.text-img-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-text-box{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.img-one{
+    height: 270px;
+    width: 400px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+p{
+    margin-top: 0px;
+}
+button{
+    background-color: #3882f6;
+    border: 0px;
+    width: 120px;
+    padding: 6px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.test{
+    display: flex;
+    height: 570px;
+}
+/* ---------------------------------------------------- */
+.real-god-two{
+    display: flex;
+    margin: 0px -20px 0px -20px;
+    align-items: center;
+    flex-direction: column;
+    height: 370px;
+    justify-content: center;
+
+}
+
+.header-two{
+    height: 60px;
+    align-items: center;
+    display: flex;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+.big-box{
+    display: flex;
+    height: 220px;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+}
+.small-container{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 170px;
+}
+.blue{
+    border: 3px solid #3882f6;
+    height: 110px;
+    width: 110px;
+    border-radius: 15px;
+}
+.a{
+    color: black;
+    text-align: center;
+}
+/* ---------------------------------------------------- */
+.real-god-three{    
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 20px;
+    margin: -20px -20px 0px -20px;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+}
+.text-box{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+
+}
+.quote{
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+}
+.thor{
+    display: flex;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    justify-content: flex-end;
+}
+
+/* ---------------------------------------------------- */
+.real-god-four{
+    display: flex;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+}
+.blue-box{
+    display: flex;
+    background-color: #3882f6;
+    width: 85%;
+    height: 100px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.inside-blue{
+    display: flex;
+    height: 70px;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+.button-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 96px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+.bold{
+    font-weight: bolder
+}
+/* ---------------------------------------------------- */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 70px;
+    margin: 0px -20px -10px -20px;
+    font-size: 12px;
+
+}
